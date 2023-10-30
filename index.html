@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indentation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preload" href="fonts/Roboto-Black.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">Отступы в вёрстке: margin и padding</h1>
+
+            <div class="header__container-text">
+                <p class="header__text">
+                    В этой статье я рассмотрю самые популярные "стандартные" решения для сохранения смысла и хорошей читаемости вашего кода. Если точнее — речь пойдет об основных правилах организации отступов. Они сильно влияют на общую функциональность кода и, если всё сделано верно, позволяют легко вносить изменения в любую его часть. При этом другие части кода продолжат нормально работать.
+                </p>
+                <p class="header__text">
+                    Как это часто бывает, знание базовых принципов поможет проявить гибкость и выйти за их пределы. Эти знания особенно важны для начинающих, но также будут полезным напоминанием и для более опытных верстальщиков. Итак, поговорим о фундаментальных основах работы с отступами в вёрстке.
+                </p>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <ol class="navbar__list">
+                <h2 class="navbar__title">Содержание:</h2>
+                <li class="navbar__item">
+                    <a 
+                        href="#previous"
+                        class="navbar__link"
+                    >
+                        Отступ задается от предыдущего элемента к следующему
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a 
+                        href="#last"
+                        class="navbar__link"
+                    >
+                        Отступ задается последнему возможному элементу в DOM-дереве
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a 
+                        href="#reset"
+                        class="navbar__link"
+                    >
+                        Для последнего элемента группы отступ обнуляется
+                    </a>
+                </li>
+            </ol>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="previous" class="previous">
+            <div class="container">
+                <h3 class="heading">
+                    Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева направо.
+                </h3>
+
+                <img class="previous__image" src="" alt="">
+
+                <div class="previous__container-text">
+                    <p class="previous__text">
+                        ВАЖНО: margin всегда задают от предыдущего элемента к следующему.
+                    </p>
+                    <p class="previous__text">
+                        Свойство margin необходимо только для того, чтобы отодвинуть своего соседа справа или снизу, поэтому используется margin-right и margin-bottom.
+                    </p>
+                    <p class="previous__text">
+                        (!) Свойства margin-left и margin-top используются крайне редко.
+                    </p>
+                    <p class="previous__text">
+                        Для padding верно обратное. Исключением является его применения в декоративных целях, например, для увеличения области ссылки.
+                    </p>
+                </div>
+
+                <img class="previous__image" src="" alt="">
+
+                <div class="previous__container-text">
+                    <p class="previous__text">
+                        Отступ внутри блока сверху или слева реализуется через padding-top и padding-left родителя.
+                    </p>
+                    <p class="previous__text">
+                        Отступы, как правило, делают в направлении от предыдущего элемента к следующему. Так элемент не будет толкать сам себя.
+                    </p>
+                    <p class="previous__text">
+                        Изначально элемент статичен, а его положение может меняться только под воздействием свойств других блоков или свойств родителя.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="last" id="last">
+            <div class="container">
+                <h3 class="last__heading">
+                    Отступ задается последнему возможному элементу в DOM-дереве
+                </h3>
+            </div>
+        </section>
+
+        <section class="reset" id="reset">
+            <div class="container">
+                <h3 class="reset__heading"></h3>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <h2 class="title"></h2>
+
+            <ul class="footer-list">
+                <li class="footer__item"></li>
+                <li class="footer__item"></li>
+                <li class="footer__item"></li>
+                <li class="footer__item"></li>
+                <li class="footer__item"></li>
+            </ul>
+
+            <p class="footer__text">
+
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
