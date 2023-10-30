@@ -1,0 +1,21 @@
+.last {
+}
+.last__figure {
+}
+.last__heading {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+.last__image {
+    width: 1080px;
+}
+.last__image-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+.last__text {
+}
