@@ -122,73 +122,66 @@
                         alt="верстка списка с заголовком и параграфом в каждом элементе"
                         height="537"
                     >
-                </figure>
-
-                <figure class="last__figure">
                     <img
                         class="last__image"
                         src="img/last/image 4.jpg" 
                         alt="список с равными отступами между элементами"
-                        height=""
+                        height="450"
                     >
-
                     <figcaption class="last__image-text">
-                        
+                        Отступ делают за счёт соседних элементов, а не дочерних:
                     </figcaption>
                 </figure>
 
-                <figure class="last__figure">
+                <figure class="last__figure-border">
                     <img
-                        class="last__image"
-                        src="" 
-                        alt=""
-                        height=""
+                        class="last__image-border"
+                        src="img/last/image 5.jpg" 
+                        alt="пример верстки margin-bottom у тегов li"
+                        height="427"
                     >
 
-                    <figcaption class="last__image-text">
-                        
+                    <figcaption class="last__image-text-grey">
+                        <b>ВАЖНО:</b> здесь <i>.list-item</i> — последний возможный элемент в котором мы задаём отступ, чтобы разделить списки.
                     </figcaption>
                 </figure>
 
                 <p class="last__text">
-
+                    Казалось бы, можно задать отступ параграфу <i> &lt;p&gt; </i> , либо обёртке <i> &lt;article&gt; </i> для достижения той же цели. Внешне останется все точно также, но так делать не рекомендуется.
                 </p>
 
                 <figure class="last__figure">
+                    <figcaption class="last__image-text">
+                        Предыдущий пример был достаточно простым, но бывает вложенность значительно больше.
+                    </figcaption>
                     <img
                         class="last__image"
-                        src="" 
-                        alt=""
-                        height=""
+                        src="img/last/image 6.jpg" 
+                        alt="пример верстки заголовка внутри тега div и section"
+                        height="164"
                     >
-
                     <figcaption class="last__image-text">
-                        
+                        В случае с заголовком, если ему необходим отступ сверху, последним элементом будет <i>section</i>. Именно для него задается <i>padding-top</i>, а не <i>div</i> с классом <i>container</i>. Свойства <i>margin</i>, которые стоят по умолчанию необходимо обнулить.
                     </figcaption>
-                </figure>
-
-                <figure class="last__figure">
                     <img
                         class="last__image"
-                        src="" 
-                        alt=""
-                        height=""
+                        src="img/last/image 7.jpg" 
+                        alt="иллюстрация padding у верхнего элемента в секции"
+                        height="504"
                     >
-
-                    <figcaption class="last__image-text">
-                        
-                    </figcaption>
                 </figure>
 
                 <p class="last__text">
-
+                    Это необходимо для более простого поиска отступов в будущем — для вас или того, кто будет верстать после вас. Кроме того, возможны серьёзные проблемы при динамическом дублировании или выводе вёрстки с нестандартной структурой отступов.
                 </p>
             </div>
         </section>
 
         <section class="reset" id="reset">
             <div class="container">
-                <h3 class="reset__heading"></h3>
+                <h3 class="reset__heading">
+                    Для последнего элемента группы отступ всегда обнуляется
+                </h3>
             </div>
         </section>
 
