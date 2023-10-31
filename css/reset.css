@@ -1,0 +1,44 @@
+.reset {
+}
+
+.reset__figure {
+    margin-bottom: 30px;
+}
+
+.reset__figure:last-child {
+    margin: 0;
+}
+
+.reset__heading {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+.reset__image {
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.reset__image:last-child {
+    margin-bottom: 0;
+}
+
+.reset__image:last-child {
+    margin-bottom: 0;
+}
+
+.reset__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+.reset__image-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 30px;
+}

@@ -182,6 +182,81 @@
                 <h3 class="reset__heading">
                     Для последнего элемента группы отступ всегда обнуляется
                 </h3>
+
+                <p class="reset__text">
+                    Для наглядности возьмём наш предыдущий пример с рецептами
+                </p>
+
+                <figure class="reset__figure">
+                    <figcaption class="reset__image-text">
+                        Между рецептами расстояние одинаковое. Можно заметить, что и до следующего блока расстояние такое же.
+                    </figcaption>
+                    <img
+                        src="img/reset/image 8.jpg" 
+                        alt="иллюстрация отступов на примере списка с рецептами" 
+                        class="reset__image"
+                        height="600"
+                    >
+                    <figcaption class="reset__image-text">
+                        В соответствии со вторым принципом: последний <i>margin</i> обнуляется, а нижний отступ задаётся через <i>padding</i> для <i>section</i>. Я чаще всего задаю <i>padding</i> для секции с обоих сторон, если расстояние между секциями 100px задаю секциям <i>padding-top:50px</i> и <i>padding-bottom:50px</i>.
+                    </figcaption>
+                    <img 
+                        src="img/reset/image 9.jpg" 
+                        alt="иллюстрация margin между элементами списка" 
+                        class="reset__image"
+                        height="607"
+                    >
+                </figure>
+
+                <figure class="reset__image">
+                    <img 
+                        src="img/reset/image 10.jpg" 
+                        alt="пример верстки списка с большой вложенностью"
+                        class="reset__image-card"
+                        height="528"
+                    >
+                    <img 
+                        src="img/reset/image 11.jpg" 
+                        alt="пример верстки списка с большой вложенностью"
+                        class="reset__image-card"
+                        height="230"
+                    >
+                </figure>
+                <figure class="reset__figure">
+                    <figcaption class="reset__image-text">
+                        Для большего понимания рассмотрим другой пример, который часто встречается на практике:
+                    </figcaption>
+                    <img 
+                        src="img/reset/image 12.jpg" 
+                        alt="меню навигация сайта" 
+                        class="reset__image"
+                        height="88"
+                    >
+                    <img 
+                        src="img/reset/image 13.jpg" 
+                        alt="верстка навигации сайта с использование тега nav, ul и li" 
+                        class="reset__image"
+                        height="475"
+                    >
+                    <figcaption class="reset__image-text">
+                        Здесь нас интересует отступ между пунктами меню и списком с кнопкой поиска. Отступы между пунктами меню задаются так:
+                    </figcaption>
+                    <img 
+                        src="img/reset/image 14.jpg" 
+                        alt="отступ элемента в css с помощью margin-right" 
+                        class="reset__image"
+                        height="110"
+                    >
+                    <figcaption class="reset__image-text">
+                        Советую использовать псевдоклассы :last-child чаще других, например так:
+                    </figcaption>
+                    <img 
+                    src="img/reset/image 15.jpg" 
+                    alt="пример обнуления отступа элемента в css с помощью псевдокласса last-child и not" 
+                    class="reset__image"
+                    height="383"
+                >
+                </figure>
             </div>
         </section>
 

@@ -3,6 +3,7 @@
 @import url(navbar.css);
 @import url(previous.css);
 @import url(last.css);
+@import url(reset.css);
 
 @font-face {
     font-family: Roboto;
