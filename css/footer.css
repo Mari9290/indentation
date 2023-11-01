@@ -1,0 +1,38 @@
+.footer {
+    padding-top: 25px;
+    margin-bottom: 50px;
+}
+
+.footer__wrap {
+    border-radius: 10px;
+    background: #F1F1F1;
+    max-width: 1140px;
+    min-height: 385px;
+    margin: auto;
+    padding: 25px 45px; 
+}
+
+.footer__title {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+.footer-list {
+    list-style-position: inside;
+    margin-bottom: 30px;
+}
+.footer__item {
+    list-style-type: "—";
+    margin-bottom: 10px;
+}
+
+.footer__item:last-child {
+    margin-bottom: 0;
+}
+
+.footer__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+}

@@ -25,8 +25,8 @@
         </div>
 
         <nav class="navbar">
+            <h2 class="navbar__title">Содержание:</h2>
             <ol class="navbar__list">
-                <h2 class="navbar__title">Содержание:</h2>
                 <li class="navbar__item">
                     <a 
                         href="#previous"
@@ -67,7 +67,7 @@
                 <div class="previous__container-content clearfix">
                     <img 
                         class="previous__image" 
-                        src="img/previous/image 1.jpg" 
+                        src="img/previous/image1.jpg" 
                         alt="иллюстрация применения margin-right и margin-bottom на сайте"
                         height="415"
                     >
@@ -88,7 +88,7 @@
                 <div class="previous__container-content">
                     <img 
                         class="previous__image-second" 
-                        src="img/previous/image 2.jpg" 
+                        src="img/previous/image2.jpg" 
                         alt="иллюстрация применения отступа внутри блока с помощью padding-top"
                         height="279"
                     >
@@ -118,13 +118,15 @@
                     </figcaption>
                     <img
                         class="last__image"
-                        src="img/last/image 3.jpg" 
+                        src="img/last/image3.jpg" 
                         alt="верстка списка с заголовком и параграфом в каждом элементе"
                         height="537"
                     >
+                </figure>
+                <figure class="last__figure">
                     <img
                         class="last__image"
-                        src="img/last/image 4.jpg" 
+                        src="img/last/image4.jpg" 
                         alt="список с равными отступами между элементами"
                         height="450"
                     >
@@ -136,7 +138,7 @@
                 <figure class="last__figure-border">
                     <img
                         class="last__image-border"
-                        src="img/last/image 5.jpg" 
+                        src="img/last/image5.jpg" 
                         alt="пример верстки margin-bottom у тегов li"
                         height="427"
                     >
@@ -156,16 +158,18 @@
                     </figcaption>
                     <img
                         class="last__image"
-                        src="img/last/image 6.jpg" 
+                        src="img/last/image6.jpg" 
                         alt="пример верстки заголовка внутри тега div и section"
                         height="164"
                     >
+                </figure>
+                <figure class="last__figure">
                     <figcaption class="last__image-text">
                         В случае с заголовком, если ему необходим отступ сверху, последним элементом будет <i>section</i>. Именно для него задается <i>padding-top</i>, а не <i>div</i> с классом <i>container</i>. Свойства <i>margin</i>, которые стоят по умолчанию необходимо обнулить.
                     </figcaption>
                     <img
                         class="last__image"
-                        src="img/last/image 7.jpg" 
+                        src="img/last/image7.jpg" 
                         alt="иллюстрация padding у верхнего элемента в секции"
                         height="504"
                     >
@@ -192,16 +196,18 @@
                         Между рецептами расстояние одинаковое. Можно заметить, что и до следующего блока расстояние такое же.
                     </figcaption>
                     <img
-                        src="img/reset/image 8.jpg" 
+                        src="img/reset/image8.jpg" 
                         alt="иллюстрация отступов на примере списка с рецептами" 
                         class="reset__image"
                         height="600"
                     >
+                </figure>
+                <figure class="reset__figure">
                     <figcaption class="reset__image-text">
                         В соответствии со вторым принципом: последний <i>margin</i> обнуляется, а нижний отступ задаётся через <i>padding</i> для <i>section</i>. Я чаще всего задаю <i>padding</i> для секции с обоих сторон, если расстояние между секциями 100px задаю секциям <i>padding-top:50px</i> и <i>padding-bottom:50px</i>.
                     </figcaption>
                     <img 
-                        src="img/reset/image 9.jpg" 
+                        src="img/reset/image9.jpg" 
                         alt="иллюстрация margin между элементами списка" 
                         class="reset__image"
                         height="607"
@@ -210,13 +216,13 @@
 
                 <figure class="reset__image">
                     <img 
-                        src="img/reset/image 10.jpg" 
+                        src="img/reset/image10.jpg" 
                         alt="пример верстки списка с большой вложенностью"
                         class="reset__image-card"
                         height="528"
                     >
                     <img 
-                        src="img/reset/image 11.jpg" 
+                        src="img/reset/image11.jpg" 
                         alt="пример верстки списка с большой вложенностью"
                         class="reset__image-card"
                         height="230"
@@ -227,31 +233,35 @@
                         Для большего понимания рассмотрим другой пример, который часто встречается на практике:
                     </figcaption>
                     <img 
-                        src="img/reset/image 12.jpg" 
+                        src="img/reset/image12.jpg" 
                         alt="меню навигация сайта" 
                         class="reset__image"
                         height="88"
                     >
                     <img 
-                        src="img/reset/image 13.jpg" 
+                        src="img/reset/image13.jpg" 
                         alt="верстка навигации сайта с использование тега nav, ul и li" 
                         class="reset__image"
                         height="475"
                     >
+                </figure>
+                <figure class="reset__figure">
                     <figcaption class="reset__image-text">
                         Здесь нас интересует отступ между пунктами меню и списком с кнопкой поиска. Отступы между пунктами меню задаются так:
                     </figcaption>
                     <img 
-                        src="img/reset/image 14.jpg" 
+                        src="img/reset/image14.jpg" 
                         alt="отступ элемента в css с помощью margin-right" 
                         class="reset__image"
                         height="110"
                     >
+                </figure>
+                <figure class="reset__figure">
                     <figcaption class="reset__image-text">
                         Советую использовать псевдоклассы :last-child чаще других, например так:
                     </figcaption>
                     <img 
-                    src="img/reset/image 15.jpg" 
+                    src="img/reset/image15.jpg" 
                     alt="пример обнуления отступа элемента в css с помощью псевдокласса last-child и not" 
                     class="reset__image"
                     height="383"
@@ -262,19 +272,31 @@
 
     </main>
     <footer class="footer">
-        <div class="container">
-            <h2 class="title"></h2>
+        <div class="footer__wrap">
+            <h2 class="footer__title">
+                Подытожим:
+            </h2>
 
             <ul class="footer-list">
-                <li class="footer__item"></li>
-                <li class="footer__item"></li>
-                <li class="footer__item"></li>
-                <li class="footer__item"></li>
-                <li class="footer__item"></li>
+                <li class="footer__item">
+                    отступы задаём от предыдущего элемента к следующему
+                </li>
+                <li class="footer__item">
+                    используем только margin-right и margin-bottom
+                </li>
+                <li class="footer__item">
+                    внешние отступы задаются только между соседями
+                </li>
+                <li class="footer__item">
+                    внутренний отступ задаём самому верхнему элементу в дом дереве
+                </li>
+                <li class="footer__item">
+                    последнему элементу группы отступ всегда обнуляем
+                </li>
             </ul>
 
             <p class="footer__text">
-
+                Конечно бывают исключения. Ведь макеты бывают различной сложности. Иногда базовые принципы приходится нарушать в угоду дизайнерского решения или простоты вёрстки. Но для этого эти принципы необходимо хорошо знать.
             </p>
         </div>
     </footer>

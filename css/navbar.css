@@ -5,6 +5,8 @@
     background: #F1F1F1;
     margin: auto;
     margin-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 45px;
 }
 
 .navbar__item {
@@ -25,8 +27,6 @@
 }
 
 .navbar__list {
-    padding-top: 25px;
-    padding-left: 45px;
     list-style-type: decimal;
 }
 
