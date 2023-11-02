@@ -18,6 +18,10 @@
     margin-bottom: 30px;
 }
 
+.previous__container-content:last-child {
+    margin-bottom: 0;
+}
+
 .previous__image {
     float: left;
     width: 560px;
